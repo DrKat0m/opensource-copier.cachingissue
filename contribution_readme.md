@@ -252,3 +252,4 @@ What I built, in order:
 - Prior optimization PR (#472, `--filter=blob:none`): https://github.com/copier-org/copier/pull/472
 - Git docs: `git-clone(1)` (`--mirror`), `git-worktree(1)`, `git-remote(1)` (`update`), and `safe.bareRepository` in `git-config(1)`.
 - `platformdirs` documentation for per-user cache directories.
+- Forked Repo link :- https://github.com/DrKat0m/copier/tree/feat/cache-git-templates-450
