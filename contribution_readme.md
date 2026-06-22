@@ -1,4 +1,4 @@
-# Contribution [#]: [Copier Template Caching Issue]
+# Contribution : [Copier Template Caching Issue]
 
 **Contribution Number:** 1  
 **Student:** Kartavya Suhagiya  
