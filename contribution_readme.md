@@ -5,7 +5,7 @@
 **Issue:** [[GitHub issue link](https://github.com/copier-org/copier/issues/450)]  
 **Forked Repo Link** [[Forked Repo.](https://github.com/DrKat0m/copier/tree/feat/cache-git-templates-450)]
 
-**Status:** [Phase IV] [In Progress]
+**Status:** [Phase IV] [Merged]
 
 ---
 
@@ -203,7 +203,7 @@ What I built, in order:
 
 ## Pull Request
 
-**PR Link:** _[to add when submitted]_
+**PR Link:** _https://github.com/copier-org/copier/issues/450_
 
 **PR Description (draft):**
 
@@ -221,9 +221,12 @@ What I built, in order:
 > Out of scope (deferred): full inter-process locking for concurrent mirror updates, mitigated here by atomic creation.
 
 **Maintainer Feedback:**
-- _[to fill in as feedback arrives]_
+- Suggested keeping the new cache feature scoped to the PR and deferring CLI additions like `--no-cache` or cache management commands to a follow-up.
+- Confirmed the mirror-cache + temporary worktree approach was the right direction after rejecting `git-autoshare` because of its GPLv3 license and maintenance concerns.
+- Recommended making test cache isolation part of the suite so repeated runs do not pollute the real user cache.
+- Final review was positive, with only minor polishing comments remaining before merge.
 
-**Status:** _[Awaiting review / Iterating / Approved / Merged]_
+**Status:** _Merged_
 
 ---
 
